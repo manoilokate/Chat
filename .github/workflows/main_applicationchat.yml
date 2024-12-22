@@ -23,10 +23,10 @@ jobs:
         run: nuget restore
 
       - name: Build and Publish to folder
-        run: msbuild /nologo /verbosity:m /t:Build /p:_PackageTempDir="published"
+        run: msbuild /nologo /verbosity:m /t:Build /t:pipelinePreDeployCopyAllFilesToOneFolder /p:_PackageTempDir="published"
 
-      - name: List files in the published folder (debugging step)
-        run: ls -R ./published
+      - name: List files in the published directory
+        run: ls -R ./published  # Debugging step to verify files are in the correct folder
 
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v4
@@ -41,7 +41,7 @@ jobs:
       name: 'Production'
       url: ${{ steps.deploy-to-webapp.outputs.webapp-url }}
     permissions:
-      id-token: write # This is required for requesting the JWT
+      id-token: write  # Required for requesting the JWT
 
     steps:
       - name: Download artifact from build job
@@ -49,15 +49,15 @@ jobs:
         with:
           name: ASP-app
 
-      - name: List files in the artifact folder (debugging step)
-        run: ls -R ./ASP-app
+      - name: List files in the downloaded artifact (debugging step)
+        run: ls -R ./ASP-app  # Verify that the artifact was correctly downloaded
 
       - name: Login to Azure
         uses: azure/login@v2
         with:
-          client-id: ${{ secrets.AZUREAPPSERVICE_CLIENTID_F2C0EBF976AB40E4A5D2DC7B24BF35F9 }}
-          tenant-id: ${{ secrets.AZUREAPPSERVICE_TENANTID_3F3CA0D6DA844C92B6E44E4A5E49F73B }}
-          subscription-id: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID_5C67C5F516C94AB28506AAB68AC9045D }}
+          client-id: ${{ secrets.AZUREAPPSERVICE_CLIENTID }}
+          tenant-id: ${{ secrets.AZUREAPPSERVICE_TENANTID }}
+          subscription-id: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID }}
 
       - name: Deploy to Azure Web App
         id: deploy-to-webapp
@@ -65,4 +65,4 @@ jobs:
         with:
           app-name: 'ApplicationChat'
           slot-name: 'Production'
-          package: './ASP-app'
+          package: './ASP-app'  # The path to the downloaded artifact

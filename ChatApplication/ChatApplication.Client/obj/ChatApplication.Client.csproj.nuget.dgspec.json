@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Chat\\ChatApplication\\ChatApplication.Client\\ChatApplication.Client.csproj": {}
+    "C:\\Chat\\ChatApplication\\ChatApplication.Client\\ChatApplication.Client.csproj": {}
   },
   "projects": {
-    "c:\\Chat\\ChatApplication\\ChatApplication.Client\\ChatApplication.Client.csproj": {
+    "C:\\Chat\\ChatApplication\\ChatApplication.Client\\ChatApplication.Client.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Chat\\ChatApplication\\ChatApplication.Client\\ChatApplication.Client.csproj",
+        "projectUniqueName": "C:\\Chat\\ChatApplication\\ChatApplication.Client\\ChatApplication.Client.csproj",
         "projectName": "ChatApplication.Client",
-        "projectPath": "c:\\Chat\\ChatApplication\\ChatApplication.Client\\ChatApplication.Client.csproj",
+        "projectPath": "C:\\Chat\\ChatApplication\\ChatApplication.Client\\ChatApplication.Client.csproj",
         "packagesPath": "C:\\Users\\Катя\\.nuget\\packages\\",
-        "outputPath": "c:\\Chat\\ChatApplication\\ChatApplication.Client\\obj\\",
+        "outputPath": "C:\\Chat\\ChatApplication\\ChatApplication.Client\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -1025,8 +1025,6 @@ c:\Chat\ChatApplication\ChatApplication.Client\obj\Debug\net9.0\refint\ChatAppli
 c:\Chat\ChatApplication\ChatApplication.Client\obj\Debug\net9.0\ChatApplication.Client.pdb
 c:\Chat\ChatApplication\ChatApplication.Client\obj\Debug\net9.0\ref\ChatApplication.Client.dll
 C:\Chat\ChatApplication\ChatApplication.Client\obj\Debug\net9.0\ChatApplication.Client.sourcelink.json
-c:\Chat\ChatApplication\ChatApplication.Client\bin\Debug\net9.0\wwwroot\_framework\ChatApplication.Client.rjy3q9e3nx.pdb
-c:\Chat\ChatApplication\ChatApplication.Client\bin\Debug\net9.0\wwwroot\_framework\ChatApplication.Client.b84knkr11x.wasm
 c:\Chat\ChatApplication\ChatApplication.Client\bin\Debug\net9.0\wwwroot\_framework\Microsoft.AspNetCore.Connections.Abstractions.7spsrhss77.wasm
 c:\Chat\ChatApplication\ChatApplication.Client\bin\Debug\net9.0\wwwroot\_framework\Microsoft.AspNetCore.Http.Connections.Client.z7u4a7murc.wasm
 c:\Chat\ChatApplication\ChatApplication.Client\bin\Debug\net9.0\wwwroot\_framework\Microsoft.AspNetCore.Http.Connections.Common.sco90jr2cd.wasm
@@ -1039,10 +1037,8 @@ c:\Chat\ChatApplication\ChatApplication.Client\bin\Debug\net9.0\wwwroot\_framewo
 c:\Chat\ChatApplication\ChatApplication.Client\bin\Debug\net9.0\wwwroot\_framework\Microsoft.AspNetCore.Http.Connections.Client.z7u4a7murc.wasm.gz
 c:\Chat\ChatApplication\ChatApplication.Client\bin\Debug\net9.0\wwwroot\_framework\System.Net.ServerSentEvents.f1hncm5urj.wasm.gz
 c:\Chat\ChatApplication\ChatApplication.Client\bin\Debug\net9.0\wwwroot\_framework\Microsoft.AspNetCore.SignalR.Protocols.Json.clsjmx2tzj.wasm.gz
-c:\Chat\ChatApplication\ChatApplication.Client\bin\Debug\net9.0\wwwroot\_framework\ChatApplication.Client.b84knkr11x.wasm.gz
 c:\Chat\ChatApplication\ChatApplication.Client\bin\Debug\net9.0\wwwroot\_framework\Microsoft.Extensions.Features.dahf5y9s1y.wasm.gz
 c:\Chat\ChatApplication\ChatApplication.Client\bin\Debug\net9.0\wwwroot\_framework\Microsoft.AspNetCore.SignalR.Client.Core.56u92ux49e.wasm.gz
-c:\Chat\ChatApplication\ChatApplication.Client\bin\Debug\net9.0\wwwroot\_framework\ChatApplication.Client.rjy3q9e3nx.pdb.gz
 c:\Chat\ChatApplication\ChatApplication.Client\bin\Debug\net9.0\wwwroot\_framework\Microsoft.AspNetCore.SignalR.Common.p3plgq7zbv.wasm.gz
 c:\Chat\ChatApplication\ChatApplication.Client\bin\Debug\net9.0\wwwroot\_framework\Microsoft.AspNetCore.Connections.Abstractions.7spsrhss77.wasm.gz
 c:\Chat\ChatApplication\ChatApplication.Client\bin\Debug\net9.0\wwwroot\_framework\Microsoft.AspNetCore.SignalR.Client.z94n2c4oh4.wasm.gz
@@ -1074,6 +1070,10 @@ c:\Chat\ChatApplication\ChatApplication.Client\obj\Debug\net9.0\compressed\r3nub
 c:\Chat\ChatApplication\ChatApplication.Client\obj\Debug\net9.0\compressed\bgfl7b9xc3-clsjmx2tzj.gz
 c:\Chat\ChatApplication\ChatApplication.Client\obj\Debug\net9.0\compressed\etrkpj8rwu-dahf5y9s1y.gz
 c:\Chat\ChatApplication\ChatApplication.Client\obj\Debug\net9.0\compressed\aj4xl6tdbj-f1hncm5urj.gz
-c:\Chat\ChatApplication\ChatApplication.Client\obj\Debug\net9.0\compressed\binr8djhz5-b84knkr11x.gz
-c:\Chat\ChatApplication\ChatApplication.Client\obj\Debug\net9.0\compressed\p6n9b8otx3-rjy3q9e3nx.gz
-c:\Chat\ChatApplication\ChatApplication.Client\obj\Debug\net9.0\compressed\290xv7lusl-ybl92e2tl2.gz
+C:\Chat\ChatApplication\ChatApplication.Client\bin\Debug\net9.0\wwwroot\_framework\ChatApplication.Client.1qcvys7ky1.pdb
+C:\Chat\ChatApplication\ChatApplication.Client\bin\Debug\net9.0\wwwroot\_framework\ChatApplication.Client.1d468w2pot.wasm
+C:\Chat\ChatApplication\ChatApplication.Client\bin\Debug\net9.0\wwwroot\_framework\ChatApplication.Client.1d468w2pot.wasm.gz
+C:\Chat\ChatApplication\ChatApplication.Client\bin\Debug\net9.0\wwwroot\_framework\ChatApplication.Client.1qcvys7ky1.pdb.gz
+C:\Chat\ChatApplication\ChatApplication.Client\obj\Debug\net9.0\compressed\binr8djhz5-1d468w2pot.gz
+C:\Chat\ChatApplication\ChatApplication.Client\obj\Debug\net9.0\compressed\p6n9b8otx3-1qcvys7ky1.gz
+C:\Chat\ChatApplication\ChatApplication.Client\obj\Debug\net9.0\compressed\290xv7lusl-6k9in9g3bt.gz
