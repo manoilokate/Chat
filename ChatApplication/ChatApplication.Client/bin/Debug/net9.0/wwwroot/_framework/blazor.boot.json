@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "ChatApplication.Client",
   "resources": {
-    "hash": "sha256-cJKcbmnzu+Z/TzCknl6oykojJyhe+0p0s/U6ugwrrV4=",
+    "hash": "sha256-oY3gTuvS/2NQRGJ2JFjiwelAcgmkhMVGB7Ef3o9YZbE=",
     "fingerprinting": {
       "Microsoft.AspNetCore.Authorization.qe23mgxr71.wasm": "Microsoft.AspNetCore.Authorization.wasm",
       "Microsoft.AspNetCore.Components.flveird317.wasm": "Microsoft.AspNetCore.Components.wasm",
@@ -201,8 +201,8 @@
       "icudt_CJK.tjcz0u77k5.dat": "icudt_CJK.dat",
       "icudt_EFIGS.tptq2av103.dat": "icudt_EFIGS.dat",
       "icudt_no_CJK.lfu7j35m59.dat": "icudt_no_CJK.dat",
-      "ChatApplication.Client.a0iweztov2.wasm": "ChatApplication.Client.wasm",
-      "ChatApplication.Client.ybuicn0zh8.pdb": "ChatApplication.Client.pdb"
+      "ChatApplication.Client.cr44c0hxmc.wasm": "ChatApplication.Client.wasm",
+      "ChatApplication.Client.0nqjeggcbo.pdb": "ChatApplication.Client.pdb"
     },
     "jsModuleNative": {
       "dotnet.native.hmanx9razn.js": "sha256-d7UNSArplVrX3arY2Kmhxp1wN79ng8hLqIBrkiQ9Gbo="
@@ -412,10 +412,10 @@
       "WindowsBase.377bly7twj.wasm": "sha256-0VmBdMjdc0nZGHDSfaGirT6y3mJTM0qx8eqCUC/rpiE=",
       "mscorlib.o0184ey5ia.wasm": "sha256-2GxNKZQJVJvYMUxSTuXa5V2qxawSMMHZtwG33SKVCZU=",
       "netstandard.hb3h2rr8mk.wasm": "sha256-DWn9+RH/ElZQ6imlYqVwZvir1KTzNwY18AzGmnyiymU=",
-      "ChatApplication.Client.a0iweztov2.wasm": "sha256-1tJLqohk2Ym79Y/OO686GNi0deo3TXiwr4StAEwrAYc="
+      "ChatApplication.Client.cr44c0hxmc.wasm": "sha256-6DIdZL5bs26CDbKeYAEsslvKrL5fW3UbnWgDe7bD3UI="
     },
     "pdb": {
-      "ChatApplication.Client.ybuicn0zh8.pdb": "sha256-8o22FpAQRF7hVoOQ83iEQzT+ApWc3u7HsrODXFiAJD0="
+      "ChatApplication.Client.0nqjeggcbo.pdb": "sha256-nBumxNL1cfVquF3HspM/4vAQOMrZDx60FYiyxyPmaMM="
     }
   },
   "cacheBootResources": true,

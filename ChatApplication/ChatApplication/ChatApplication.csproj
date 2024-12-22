@@ -4,6 +4,7 @@
     <TargetFramework>net9.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+    <OutputPath>bin\Debug\net9.0\</OutputPath> 
   </PropertyGroup>
 
   <ItemGroup>
@@ -12,10 +13,11 @@
   </ItemGroup>
 
   <Target Name="pipelinePreDeployCopyAllFilesToOneFolder">
-  <ItemGroup>
-    <FilesToCopy Include="$(OutputPath)**\*" />
-  </ItemGroup>
-  <Copy SourceFiles="@(FilesToCopy)" DestinationFolder="$(OutputPath)\published" />
-</Target>
+    <ItemGroup>
+      <FilesToCopy Include="$(OutputPath)**\*" />
+    </ItemGroup>
+    <MakeDir Directories="$(OutputPath)\published" /> 
+    <Copy SourceFiles="@(FilesToCopy)" DestinationFolder="$(OutputPath)\published" />
+  </Target>
 
 </Project>

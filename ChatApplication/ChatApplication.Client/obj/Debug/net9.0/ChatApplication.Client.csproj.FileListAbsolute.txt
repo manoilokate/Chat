@@ -1,7 +1,5 @@
 c:\Chat\ChatApplication\ChatApplication.Client\bin\Debug\net9.0\wwwroot\_framework\blazor.boot.json
 c:\Chat\ChatApplication\ChatApplication.Client\bin\Debug\net9.0\wwwroot\_framework\blazor.webassembly.js
-c:\Chat\ChatApplication\ChatApplication.Client\bin\Debug\net9.0\wwwroot\_framework\ChatApplication.Client.ybuicn0zh8.pdb
-c:\Chat\ChatApplication\ChatApplication.Client\bin\Debug\net9.0\wwwroot\_framework\ChatApplication.Client.a0iweztov2.wasm
 c:\Chat\ChatApplication\ChatApplication.Client\bin\Debug\net9.0\wwwroot\_framework\dotnet.js
 c:\Chat\ChatApplication\ChatApplication.Client\bin\Debug\net9.0\wwwroot\_framework\dotnet.js.map
 c:\Chat\ChatApplication\ChatApplication.Client\bin\Debug\net9.0\wwwroot\_framework\dotnet.native.hmanx9razn.js
@@ -279,7 +277,6 @@ c:\Chat\ChatApplication\ChatApplication.Client\bin\Debug\net9.0\wwwroot\_framewo
 c:\Chat\ChatApplication\ChatApplication.Client\bin\Debug\net9.0\wwwroot\_framework\System.Runtime.InteropServices.a1kmpww6r4.wasm.gz
 c:\Chat\ChatApplication\ChatApplication.Client\bin\Debug\net9.0\wwwroot\_framework\System.Net.WebSockets.0tdswo6v68.wasm.gz
 c:\Chat\ChatApplication\ChatApplication.Client\bin\Debug\net9.0\wwwroot\_framework\System.Security.Cryptography.OpenSsl.nhgzf5z28r.wasm.gz
-c:\Chat\ChatApplication\ChatApplication.Client\bin\Debug\net9.0\wwwroot\_framework\ChatApplication.Client.a0iweztov2.wasm.gz
 c:\Chat\ChatApplication\ChatApplication.Client\bin\Debug\net9.0\wwwroot\_framework\System.Reflection.TypeExtensions.2ha0581gnh.wasm.gz
 c:\Chat\ChatApplication\ChatApplication.Client\bin\Debug\net9.0\wwwroot\_framework\System.Text.Encoding.Extensions.xu3n8ss8h1.wasm.gz
 c:\Chat\ChatApplication\ChatApplication.Client\bin\Debug\net9.0\wwwroot\_framework\System.Runtime.Loader.776e462s17.wasm.gz
@@ -355,7 +352,6 @@ c:\Chat\ChatApplication\ChatApplication.Client\bin\Debug\net9.0\wwwroot\_framewo
 c:\Chat\ChatApplication\ChatApplication.Client\bin\Debug\net9.0\wwwroot\_framework\System.Text.Encoding.35mt6q5ljl.wasm.gz
 c:\Chat\ChatApplication\ChatApplication.Client\bin\Debug\net9.0\wwwroot\_framework\System.Threading.Timer.yf2iqnmdhk.wasm.gz
 c:\Chat\ChatApplication\ChatApplication.Client\bin\Debug\net9.0\wwwroot\_framework\System.Security.Cryptography.Algorithms.gz0fe1g1sl.wasm.gz
-c:\Chat\ChatApplication\ChatApplication.Client\bin\Debug\net9.0\wwwroot\_framework\ChatApplication.Client.ybuicn0zh8.pdb.gz
 c:\Chat\ChatApplication\ChatApplication.Client\bin\Debug\net9.0\wwwroot\_framework\System.Runtime.Serialization.Primitives.fmav5ohfo2.wasm.gz
 c:\Chat\ChatApplication\ChatApplication.Client\bin\Debug\net9.0\wwwroot\_framework\System.Text.Json.9wi3ak1857.wasm.gz
 c:\Chat\ChatApplication\ChatApplication.Client\bin\Debug\net9.0\wwwroot\_framework\Microsoft.Extensions.Logging.f89dlchogn.wasm.gz
@@ -1014,9 +1010,6 @@ c:\Chat\ChatApplication\ChatApplication.Client\obj\Debug\net9.0\compressed\9jdfy
 c:\Chat\ChatApplication\ChatApplication.Client\obj\Debug\net9.0\compressed\3jwu2qzs6m-tjcz0u77k5.gz
 c:\Chat\ChatApplication\ChatApplication.Client\obj\Debug\net9.0\compressed\ijblzen315-tptq2av103.gz
 c:\Chat\ChatApplication\ChatApplication.Client\obj\Debug\net9.0\compressed\a0mfe7cq64-lfu7j35m59.gz
-c:\Chat\ChatApplication\ChatApplication.Client\obj\Debug\net9.0\compressed\binr8djhz5-a0iweztov2.gz
-c:\Chat\ChatApplication\ChatApplication.Client\obj\Debug\net9.0\compressed\p6n9b8otx3-ybuicn0zh8.gz
-c:\Chat\ChatApplication\ChatApplication.Client\obj\Debug\net9.0\compressed\290xv7lusl-97i3ei9s6n.gz
 c:\Chat\ChatApplication\ChatApplication.Client\obj\Debug\net9.0\staticwebassets.build.json
 c:\Chat\ChatApplication\ChatApplication.Client\obj\Debug\net9.0\staticwebassets.development.json
 c:\Chat\ChatApplication\ChatApplication.Client\obj\Debug\net9.0\staticwebassets.build.endpoints.json
@@ -1031,3 +1024,11 @@ c:\Chat\ChatApplication\ChatApplication.Client\obj\Debug\net9.0\ChatApplication.
 c:\Chat\ChatApplication\ChatApplication.Client\obj\Debug\net9.0\refint\ChatApplication.Client.dll
 c:\Chat\ChatApplication\ChatApplication.Client\obj\Debug\net9.0\ChatApplication.Client.pdb
 c:\Chat\ChatApplication\ChatApplication.Client\obj\Debug\net9.0\ref\ChatApplication.Client.dll
+C:\Chat\ChatApplication\ChatApplication.Client\bin\Debug\net9.0\wwwroot\_framework\ChatApplication.Client.0nqjeggcbo.pdb
+C:\Chat\ChatApplication\ChatApplication.Client\bin\Debug\net9.0\wwwroot\_framework\ChatApplication.Client.cr44c0hxmc.wasm
+C:\Chat\ChatApplication\ChatApplication.Client\bin\Debug\net9.0\wwwroot\_framework\ChatApplication.Client.cr44c0hxmc.wasm.gz
+C:\Chat\ChatApplication\ChatApplication.Client\bin\Debug\net9.0\wwwroot\_framework\ChatApplication.Client.0nqjeggcbo.pdb.gz
+C:\Chat\ChatApplication\ChatApplication.Client\obj\Debug\net9.0\ChatApplication.Client.sourcelink.json
+C:\Chat\ChatApplication\ChatApplication.Client\obj\Debug\net9.0\compressed\binr8djhz5-cr44c0hxmc.gz
+C:\Chat\ChatApplication\ChatApplication.Client\obj\Debug\net9.0\compressed\p6n9b8otx3-0nqjeggcbo.gz
+C:\Chat\ChatApplication\ChatApplication.Client\obj\Debug\net9.0\compressed\290xv7lusl-lnb3ka06fb.gz
