@@ -49,19 +49,18 @@ jobs:
         with:
           name: ASP-app
 
-      - name: List files in the downloaded artifact (debugging step)
+      - name: Check files in the downloaded artifact (debugging step)
         run: ls -R ./ASP-app  # Verify that the artifact was correctly downloaded
 
       - name: Login to Azure
         uses: azure/login@v2
         with:
-          client-id: ${{ secrets.AZUREAPPSERVICE_CLIENTID_F2C0EBF976AB40E4A5D2DC7B24BF35F9}}
-          tenant-id: ${{ secrets.AZUREAPPSERVICE_TENANTID_3F3CA0D6DA844C92B6E44E4A5E49F73B}}
-          subscription-id: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID_5C67C5F516C94AB28506AAB68AC9045D}}
+          client-id: ${{ secrets.AZUREAPPSERVICE_CLIENTID_F2C0EBF976AB40E4A5D2DC7B24BF35F9 }}
+          tenant-id: ${{ secrets.AZUREAPPSERVICE_TENANTID_3F3CA0D6DA844C92B6E44E4A5E49F73B }}
+          subscription-id: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID_5C67C5F516C94AB28506AAB68AC9045D }}
           auth-type: "SERVICE_PRINCIPAL"
           enable-AzPSSession: false
           environment: azurecloud
-      
 
       - name: Deploy to Azure Web App
         id: deploy-to-webapp
@@ -69,4 +68,4 @@ jobs:
         with:
           app-name: 'ApplicationChat'
           slot-name: 'Production'
-          package: './ASP-app'  # The path to the downloaded artifact
+          package: './ASP-app/*'  # The path to the downloaded artifact
