@@ -23,20 +23,16 @@ jobs:
         run: nuget restore
 
       - name: Build and Publish to folder
-        run: msbuild /nologo /verbosity:m /t:Build /t:pipelinePreDeployCopyAllFilesToOneFolder /p:_PackageTempDir="published"
+        run: msbuild /nologo /verbosity:m /t:Build /p:_PackageTempDir="published"
+
+      - name: List files in the published folder (debugging step)
+        run: ls -R ./published
 
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v4
         with:
           name: ASP-app
           path: './published/**'
-
-      # Публікуємо артефакти білду, щоб використати їх у деплой-роботі
-      - name: Publish Build Artifacts
-        uses: actions/upload-artifact@v4
-        with:
-          name: ASP-app
-          path: './published'
 
   deploy:
     runs-on: windows-latest
@@ -45,7 +41,7 @@ jobs:
       name: 'Production'
       url: ${{ steps.deploy-to-webapp.outputs.webapp-url }}
     permissions:
-      id-token: write  # Потрібно для запиту JWT
+      id-token: write # This is required for requesting the JWT
 
     steps:
       - name: Download artifact from build job
@@ -53,9 +49,9 @@ jobs:
         with:
           name: ASP-app
 
-      - name: Перевірка файлів у директорії published
-        run: ls -R ./published  # Перевіряємо, чи є файли в папці
-          
+      - name: List files in the artifact folder (debugging step)
+        run: ls -R ./ASP-app
+
       - name: Login to Azure
         uses: azure/login@v2
         with:
@@ -69,4 +65,4 @@ jobs:
         with:
           app-name: 'ApplicationChat'
           slot-name: 'Production'
-          package: './published'
+          package: './ASP-app'
