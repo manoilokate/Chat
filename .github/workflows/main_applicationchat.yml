@@ -49,7 +49,7 @@ jobs:
         with:
           name: ASP-app
 
-      - name: Check files in the downloaded artifact (debugging step)
+      - name: List files in the downloaded artifact (debugging step)
         run: ls -R ./ASP-app  # Verify that the artifact was correctly downloaded
 
       - name: Login to Azure
@@ -68,4 +68,4 @@ jobs:
         with:
           app-name: 'ApplicationChat'
           slot-name: 'Production'
-          package: '${{ github.workspace }}/ASP-app/*'  # Use absolute path to the downloaded artifact
+          package: './published/**'  # The path to the downloaded artifact
