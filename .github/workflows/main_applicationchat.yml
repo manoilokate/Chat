@@ -23,7 +23,7 @@ jobs:
         run: nuget restore
 
       - name: Build and Publish to folder
-        run: msbuild /nologo /verbosity:m /t:Build /t:pipelinePreDeployCopyAllFilesToOneFolder /p:_PackageTempDir="published"
+        run: msbuild /nologo /verbosity:m /t:Build /t:pipelinePreDeployCopyAllFilesToOneFolder /p:_PackageTempDir="${{ github.workspace }}/published"
 
       - name: List files in the published directory
         run: ls -R ./published  # Debugging step to verify files are in the correct folder
@@ -68,4 +68,4 @@ jobs:
         with:
           app-name: 'ApplicationChat'
           slot-name: 'Production'
-          package: './published/**'  # The path to the downloaded artifact
+          package: '${{ github.workspace }}/published/**'  # Use absolute path to ensure correctness
