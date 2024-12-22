@@ -29,7 +29,14 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: ASP-app
-          path: 'published/**'
+          path: './published/**'
+
+      # Publish build artifacts to be used by the deployment job
+      - task: PublishBuildArtifacts@1
+        inputs:
+          PathtoPublish: './published'
+          ArtifactName: 'ASP-app'
+          publishLocation: 'Container'
 
   deploy:
     runs-on: windows-latest
@@ -38,18 +45,23 @@ jobs:
       name: 'Production'
       url: ${{ steps.deploy-to-webapp.outputs.webapp-url }}
     permissions:
-      id-token: write  # This is required for requesting the JWT
+      id-token: write  # Required for requesting the JWT
 
     steps:
-      - name: Download all artifacts from build job
+      - name: Download artifact from build job
         uses: actions/download-artifact@v3
+        with:
+          name: ASP-app
+
+      - name: Check files in the published directory
+        run: ls -R ./published  # Verify that files are correctly downloaded
 
       - name: Login to Azure
         uses: azure/login@v2
         with:
-          client-id: ${{ secrets.AZUREAPPSERVICE_CLIENTID_F2C0EBF976AB40E4A5D2DC7B24BF35F9 }}
-          tenant-id: ${{ secrets.AZUREAPPSERVICE_TENANTID_3F3CA0D6DA844C92B6E44E4A5E49F73B }}
-          subscription-id: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID_5C67C5F516C94AB28506AAB68AC9045D }}
+          client-id: ${{ secrets.AZUREAPPSERVICE_CLIENTID }}
+          tenant-id: ${{ secrets.AZUREAPPSERVICE_TENANTID }}
+          subscription-id: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID }}
 
       - name: Deploy to Azure Web App
         id: deploy-to-webapp
