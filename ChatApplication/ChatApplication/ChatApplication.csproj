@@ -11,4 +11,11 @@
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Server" Version="9.0.0" />
   </ItemGroup>
 
+  <Target Name="pipelinePreDeployCopyAllFilesToOneFolder">
+  <ItemGroup>
+    <FilesToCopy Include="$(OutputPath)**\*" />
+  </ItemGroup>
+  <Copy SourceFiles="@(FilesToCopy)" DestinationFolder="$(OutputPath)\published" />
+</Target>
+
 </Project>
