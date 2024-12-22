@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Chat\\ChatApplication\\ChatApplication\\ChatApplication.csproj": {}
+    "c:\\Chat\\ChatApplication\\ChatApplication\\ChatApplication.csproj": {}
   },
   "projects": {
-    "C:\\Chat\\ChatApplication\\ChatApplication.Client\\ChatApplication.Client.csproj": {
+    "c:\\Chat\\ChatApplication\\ChatApplication.Client\\ChatApplication.Client.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Chat\\ChatApplication\\ChatApplication.Client\\ChatApplication.Client.csproj",
+        "projectUniqueName": "c:\\Chat\\ChatApplication\\ChatApplication.Client\\ChatApplication.Client.csproj",
         "projectName": "ChatApplication.Client",
-        "projectPath": "C:\\Chat\\ChatApplication\\ChatApplication.Client\\ChatApplication.Client.csproj",
+        "projectPath": "c:\\Chat\\ChatApplication\\ChatApplication.Client\\ChatApplication.Client.csproj",
         "packagesPath": "C:\\Users\\Катя\\.nuget\\packages\\",
-        "outputPath": "C:\\Chat\\ChatApplication\\ChatApplication.Client\\obj\\",
+        "outputPath": "c:\\Chat\\ChatApplication\\ChatApplication.Client\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -52,6 +52,10 @@
           "targetAlias": "net9.0",
           "dependencies": {
             "Microsoft.AspNetCore.Components.WebAssembly": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.AspNetCore.SignalR.Client": {
               "target": "Package",
               "version": "[9.0.0, )"
             },
@@ -99,14 +103,14 @@
         }
       }
     },
-    "C:\\Chat\\ChatApplication\\ChatApplication\\ChatApplication.csproj": {
+    "c:\\Chat\\ChatApplication\\ChatApplication\\ChatApplication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Chat\\ChatApplication\\ChatApplication\\ChatApplication.csproj",
+        "projectUniqueName": "c:\\Chat\\ChatApplication\\ChatApplication\\ChatApplication.csproj",
         "projectName": "ChatApplication",
-        "projectPath": "C:\\Chat\\ChatApplication\\ChatApplication\\ChatApplication.csproj",
+        "projectPath": "c:\\Chat\\ChatApplication\\ChatApplication\\ChatApplication.csproj",
         "packagesPath": "C:\\Users\\Катя\\.nuget\\packages\\",
-        "outputPath": "C:\\Chat\\ChatApplication\\ChatApplication\\obj\\",
+        "outputPath": "c:\\Chat\\ChatApplication\\ChatApplication\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -128,8 +132,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Chat\\ChatApplication\\ChatApplication.Client\\ChatApplication.Client.csproj": {
-                "projectPath": "C:\\Chat\\ChatApplication\\ChatApplication.Client\\ChatApplication.Client.csproj"
+              "c:\\Chat\\ChatApplication\\ChatApplication.Client\\ChatApplication.Client.csproj": {
+                "projectPath": "c:\\Chat\\ChatApplication\\ChatApplication.Client\\ChatApplication.Client.csproj"
               }
             }
           }

@@ -135,3 +135,7 @@ C:\Chat\ChatApplication\ChatApplication\bin\Debug\net9.0\net9.0\binDebugnet9.0pu
 C:\Chat\ChatApplication\ChatApplication\bin\Debug\net9.0\net9.0\binDebugnet9.0published\wwwroot\appsettings.Development.json
 C:\Chat\ChatApplication\ChatApplication\bin\Debug\net9.0\net9.0\binDebugnet9.0published\wwwroot\appsettings.json
 C:\Chat\ChatApplication\ChatApplication\bin\Debug\net9.0\net9.0\binDebugnet9.0published\wwwroot\_framework\blazor.boot.json
+c:\Chat\ChatApplication\ChatApplication\bin\Debug\net9.0\net9.0\Microsoft.AspNetCore.Http.Connections.Client.dll
+c:\Chat\ChatApplication\ChatApplication\bin\Debug\net9.0\net9.0\Microsoft.AspNetCore.SignalR.Client.dll
+c:\Chat\ChatApplication\ChatApplication\bin\Debug\net9.0\net9.0\Microsoft.AspNetCore.SignalR.Client.Core.dll
+c:\Chat\ChatApplication\ChatApplication\bin\Debug\net9.0\net9.0\System.Net.ServerSentEvents.dll
