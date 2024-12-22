@@ -68,4 +68,4 @@ jobs:
         with:
           app-name: 'ApplicationChat'
           slot-name: 'Production'
-          package: './ASP-app/*'  # The path to the downloaded artifact
+          package: '${{ github.workspace }}/ASP-app/*'  # Use absolute path to the downloaded artifact
